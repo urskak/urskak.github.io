@@ -99,3 +99,11 @@ a:hover {
 
   line-height: 20px;
 }
+
+video#bgvid {
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  background: url(http://blacklabelsociety.com/home/wp-content/uploads/2014/01/spacer.jpg) no-repeat;
+  background-size: cover;
+}
