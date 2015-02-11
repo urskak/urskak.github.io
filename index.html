@@ -36,8 +36,8 @@
 </div>
 
     <script>
-      if (!document.referrer || document.referrer.split('/')[2] !== location.host) {
-        window.location.replace("urskak.github.io/index/");
+      if (document.referrer == "" || document.referrer.split('/')[2] !== location.host) {
+        window.location = "urskak.github.io/intro/"
       }
     </script>
 </body>
